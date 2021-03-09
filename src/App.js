@@ -18,7 +18,7 @@ function App() {
           </ul>
         </nav>
 
-        <p>process.env.REACT_APP_STAGE</p>
+        <p>{process.env.REACT_APP_STAGE}, this is env</p>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
